@@ -10,30 +10,22 @@ Page({
   data: {
     grids: [
       {
-        name: '在线美颜',
-        img: '../../images/zxmy.png'
-
+        name: '语音识别',
+        img: '../../images/yuyinshibie.png'
       },
       {
-        name: '图片识别',
-        img: '../../images/txsb.png'
+        name: '长语音识别',
+        img: '../../images/znyy.png'
       },
       {
-        name: '人脸识别',
-        img: '../../images/rlsb.png'
+        name: '语音合成',
+        img: '../../images/yuyinhecheng.png'
       },
       {
-        name: 'OCR识别',
-        img: '../../images/ocr.png'
-      },
-      {
-        name: '智能鉴黄',
-        img: '../../images/huang.png'
-      },
-      {
-        name: '暴恐识别',
-        img: '../../images/kongbu.png'
+        name: '语音聊天',
+        img: '../../images/liaotian.png'
       }
+      
     ]
 
   },

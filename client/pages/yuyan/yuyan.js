@@ -10,30 +10,22 @@ Page({
   data: {
     grids: [
       {
-        name: '在线美颜',
-        img: '../../images/zxmy.png'
-
+        name: '文本分析',
+        img: '../../images/webenfenxi.png'
       },
       {
-        name: '图片识别',
-        img: '../../images/txsb.png'
+        name: '语义解析',
+        img: '../../images/yuyijiexi.png'
       },
       {
-        name: '人脸识别',
-        img: '../../images/rlsb.png'
+        name: '情感分析',
+        img: '../../images/qingganfenxi.png'
       },
       {
-        name: 'OCR识别',
-        img: '../../images/ocr.png'
-      },
-      {
-        name: '智能鉴黄',
-        img: '../../images/huang.png'
-      },
-      {
-        name: '暴恐识别',
-        img: '../../images/kongbu.png'
+        name: '智能闲聊',
+        img: '../../images/zhinengliaotian.png'
       }
+      
     ]
 
   },

@@ -1,13 +1,51 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/yuyin/yuyin",
+    "pages/fanyi/fanyi",
+    "pages/yuyan/yuyan",
+    "pages/qcloud/qcloud",
     "pages/addCgi/addCgi"
   ],
   "window":{
     "backgroundColor":"#F6F6F6",
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "Wafer Quick Start",
+    "navigationBarTitleText": "智能小马",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "图像识别",
+        "selectedIconPath":"images/txsb.png",
+        "iconPath": "images/txsb2.png"
+      },
+      {
+        "pagePath": "pages/yuyin/yuyin",
+        "text": "智能语音",
+        "selectedIconPath": "images/znyy.png",
+        "iconPath": "images/znyy2.png"
+      },
+      {
+        "pagePath": "pages/fanyi/fanyi",
+        "text": "机器翻译",
+        "selectedIconPath": "images/jqfy.png",
+        "iconPath": "images/jqfy2.png"
+      },
+      {
+        "pagePath": "pages/yuyan/yuyan",
+        "text": "语言处理",
+        "selectedIconPath": "images/yycl.png",
+        "iconPath": "images/yycl2.png"
+      },
+      {
+        "pagePath": "pages/qcloud/qcloud",
+        "text": "微信云",
+        "selectedIconPath": "images/yycl.png",
+        "iconPath": "images/yycl2.png"
+      }
+    ]
   }
 }
